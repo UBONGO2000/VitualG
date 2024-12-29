@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Navbar from "./coponents/Navbar.jsx";
 import HeroSection  from "./coponents/HeroSection.jsx";
 import FeatureSection from "./coponents/FeatureSection.jsx";
@@ -9,7 +8,6 @@ import Testimonials from "./components/Testimonials";
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
